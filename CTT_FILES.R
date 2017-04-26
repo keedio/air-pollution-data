@@ -1,15 +1,16 @@
+# 
 # Define the global constants that are to be user in the AirBase_CD_data.R script.
 # These are: 
 # 1. Directory paths: root path and where to save the files
 # 2. Selected information variables: countries and common components
 # 3. Time interval to chop the datasets
+# 
+# Author: Joanna Rodríguez
+# e-mail: jrodriguez@keedio.com
 
 # Directory paths
-path_root_files = "~/Desktop/DataSet"
-path_save_files = "~/Desktop/DataSet/R_Study/DataSets"
-
-# path_root_files = "/data"
-# path_save_files = "/data/DataSets/DataSetsFinal"
+path_root_files = "/data"
+path_save_files = "/data/DataSets/DataSetsFinal"
 
 # Variables
 comp_common = c("Sulphur dioxide (air)", "Particulate matter < 10 µm (aerosol)",

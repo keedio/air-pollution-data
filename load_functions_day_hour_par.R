@@ -5,6 +5,9 @@
 #
 # Returns:
 #   data frame with all the corresponding time series
+# 
+# Author: Joanna Rodríguez
+# e-mail: jrodriguez@keedio.com
 
 get_day_matrix <- function(file_names){
   

@@ -1,3 +1,8 @@
+# shiny app with dygraph plots: number of observations vs. time period plots
+# 
+# Author: Joanna Rodríguez
+# email: jrodriguez@keedio.com
+
 ## ES DATA
 library(shiny)
 library(dygraphs)

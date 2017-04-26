@@ -41,7 +41,7 @@ In order to be able to represent a relevant region that collects around 60% of t
 ------------------------------------------------------------------------
 
 ``` r
-AB_countrycode <- read_excel("~/Desktop/DataSet/country_codes.xls")
+AB_countrycode <- read_excel("./country_codes.xls")
 AB_countrycode$country_name <- toupper(AB_countrycode$country_name)
 AB_countrycode$"%data" <- as.numeric(AB_countrycode$"%data")
 kable(AB_countrycode[rev(order(AB_countrycode$`%data`)),][c("country_name", "%data", "#components")][1:15, ], align = c('l', 'c', 'c'), caption = "Table 1")
@@ -81,43 +81,43 @@ Let's provide a brief description of their health consequences,
 
 ``` r
 # BELGIUM
-BE_stat <- read_delim("~/Desktop/DataSet/AirBase_BE_v6/AirBase_BE_v6_statistics.csv", 
+BE_stat <- read_delim("./AirBase_BE_v6/AirBase_BE_v6_statistics.csv", 
     "\t", escape_double = FALSE, trim_ws = TRUE, col_types = cols())
 
 # CZECH REPUBLIC 
-CZ_stat <- read_delim("~/Desktop/DataSet/AirBase_CZ_v6/AirBase_CZ_v6_statistics.csv", 
+CZ_stat <- read_delim("./AirBase_CZ_v6/AirBase_CZ_v6_statistics.csv", 
     "\t", escape_double = FALSE, trim_ws = TRUE, col_types = cols())
 
 # FRANCE
-FR_stat <- read_delim("~/Desktop/DataSet/AirBase_FR_v6/AirBase_FR_v6_statistics.csv", 
+FR_stat <- read_delim("./AirBase_FR_v6/AirBase_FR_v6_statistics.csv", 
     "\t", escape_double = FALSE, trim_ws = TRUE, col_types = cols())
   
 # GERMANY
-DE_stat <- read_delim("~/Desktop/DataSet/AirBase_DE_v6/AirBase_DE_v6_statistics.csv", 
+DE_stat <- read_delim("./AirBase_DE_v6/AirBase_DE_v6_statistics.csv", 
     "\t", escape_double = FALSE, trim_ws = TRUE, col_types = cols())
   
 # ITALY
-IT_stat <- read_delim("~/Desktop/DataSet/AirBase_IT_v6/AirBase_IT_v6_statistics.csv", 
+IT_stat <- read_delim("./AirBase_IT_v6/AirBase_IT_v6_statistics.csv", 
     "\t", escape_double = FALSE, trim_ws = TRUE, col_types = cols())
   
 # NETHERLANDS
-NL_stat <- read_delim("~/Desktop/DataSet/AirBase_NL_v6/AirBase_NL_v6_statistics.csv", 
+NL_stat <- read_delim("./AirBase_NL_v6/AirBase_NL_v6_statistics.csv", 
     "\t", escape_double = FALSE, trim_ws = TRUE, col_types = cols())
    
 # POLAND
-PL_stat <- read_delim("~/Desktop/DataSet/AirBase_PL_v6/AirBase_PL_v6_statistics.csv", 
+PL_stat <- read_delim("./AirBase_PL_v6/AirBase_PL_v6_statistics.csv", 
     "\t", escape_double = FALSE, trim_ws = TRUE, col_types = cols())
   
 # PORTUGAL
-PT_stat <- read_delim("~/Desktop/DataSet/AirBase_PT_v6/AirBase_PT_v6_statistics.csv", 
+PT_stat <- read_delim("./AirBase_PT_v6/AirBase_PT_v6_statistics.csv", 
     "\t", escape_double = FALSE, trim_ws = TRUE, col_types = cols())
   
 # SPAIN
-ES_stat <- read_delim("~/Desktop/DataSet/AirBase_ES_v6/AirBase_ES_v6_statistics.csv", 
+ES_stat <- read_delim("./AirBase_ES_v6/AirBase_ES_v6_statistics.csv", 
     "\t", escape_double = FALSE, trim_ws = TRUE, col_types = cols())
   
 # SWITZERLAND 
-CH_stat <- read_delim("~/Desktop/DataSet/AirBase_CH_v6/AirBase_CH_v6_statistics.csv", 
+CH_stat <- read_delim("./AirBase_CH_v6/AirBase_CH_v6_statistics.csv", 
     "\t", escape_double = FALSE, trim_ws = TRUE, col_types = cols())
 
 comp_BE <- unique(BE_stat$component_name)
@@ -133,7 +133,7 @@ comp_CH <- unique(CH_stat$component_name)
 
 comp_common <- Reduce(intersect, list(comp_BE, comp_CZ, comp_FR, comp_DE, comp_IT, comp_NL, comp_PL, comp_PT, comp_ES, comp_CH))
 
-AB_compcode <- read_csv("~/Desktop/DataSet/AB_compcode.csv", col_types = cols())
+AB_compcode <- read_csv("./AB_compcode.csv", col_types = cols())
 AB_compcode$"%data" = as.numeric(AB_compcode$"%data")
 AB_compcode$component_name <- gsub(" $","", AB_compcode$component_name, perl=T)
 

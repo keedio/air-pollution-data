@@ -1,4 +1,8 @@
-# This scripts extracts and saves in .Rdata and .csv the country data
+# Main script to extract and save the data of a country, selecting  component(s) and sample period(s).
+# It saves the data in .Rdata and .csv files in the path_save_files directory, defined in CTT_FILES.R
+# 
+# Author: Joanna Rodríguez
+# e-mail: jrodriguez@keedio.com
 
 
 library(NCmisc)

@@ -16,6 +16,9 @@ extract_CT_data <- function(comp_common,comp_code,sel_ct,sel_comp,sample_period)
   #   That is,
   #   Returns:
   #   list(comp = sel_comp, ts_day = ts_day_comp, ts_hour = ts_hour_comp)
+  # 
+  # Author: Joanna Rodríguez
+  # e-mail: jrodriguez@keedio.com
   
   comp_index <- match(sel_comp,comp_common)
   

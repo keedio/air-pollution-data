@@ -9,6 +9,9 @@ chop_fill_data <- function(ts, date, fill) {
   #
   # Returns:
   #   processed time series
+  # 
+  # Author: Joanna Rodríguez
+  # e-mail: jrodriguez@keedio.com
   
   k <- which(ts$Date == date)
   if (length(k) == 1) {
