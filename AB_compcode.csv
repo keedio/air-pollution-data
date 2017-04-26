@@ -1,0 +1,198 @@
+code,component_name,measurement_unit,FWD,%data,#country
+1,Sulphur dioxide (air),μg/m3,yes,16.9,37
+3,Strong acidity (air),Μg SO2/m3 ,no,0.5,7
+4,Total suspended particulates (aerosol),μg/m3,yes,1.8,18
+5,Particulate matter < 10 µm (aerosol),μg/m3,yes,9.3,38
+6,Black smoke (air),μg/m3,yes,0.8,15
+7,Ozone (air),μg/m3,yes,19.9,37
+8,Nitrogen dioxide (air),μg/m3,yes,16.5,37
+9,Nitrogen oxides (air),μg NO2/m3,yes,8.4,36
+10,Carbon monoxide (air),mg/m3,yes,8.2,36
+11,Hydrogen sulphide (air),μg/m3,no,0.0,7
+12,Lead (aerosol),μg/m3,yes,0.6,23
+13,Mercury (aerosol),ng/m3,yes,0.0,5
+14,Cadmium (aerosol),ng/m3,yes,0.4,23
+15,Nickel (aerosol),ng/m3,yes,0.3,22
+16,Chromium (aerosol),ng/m3,no,0.0,3
+17,Manganese (aerosol),ng/m3,no,0.0,3
+18,Arsenic (aerosol),ng/m3,yes,0.3,21
+19,Carbon disulphide (air),μg/m3,no,0.0,1
+20,Benzene (air),μg/m3,yes,1.4,34
+21,Toluene (air),μg/m3,no,0.6,21
+22,Styrene (air),μg/m3,no,0.0,2
+24,1.3 Butadiene (air),μg/m3,no,0.1,6
+25,Formaldehyde (air),μg/m3,no,0.0,2
+26,Trichloroethylene (air),μg/m3,no,0.0,1
+27,Tetrachloroethylene (air),μg/m3,no,0.0,1
+30,Polyaromatic hydrocarbons (air+aerosol),ng/m3,no,0.0,1
+32,Total non-methane hydrocarbons (air),μg C/m3,no,0.1,6
+33,Total volatile organic compounds (air),μg/m3,no,0.1,4
+34,Peroxyacetyl nitrate (air),μg/m3,no,0.0,1
+35,Ammonia (air),μg/m3,no,0.1,5
+36,Wet nitrogen deposition (flux),mg N/m2.m,no,0.0,1
+37,Wet sulphur deposition (flux),mg S/m2.m,no,0.0,2
+38,Nitrogen monoxide (air),μg/m3,no,7.7,28
+39,Hydrogen chloride (air),μg/m3,no,0.0,1
+40,Hydrogen fluoride (air),μg/m3,no,0.0,1
+41,Methane (air),μg/m3,no,0.1,4
+45,Particulate ammonium (aerosol),μg/m3,no,0.0,2
+46,Particulate nitrate (aerosol),μg/m3,no,0.0,2
+47,Particulate sulphate (aerosol),μg/m3,no,0.0,8
+48,Selenium (aerosol),ng/m3,no,0.0,1
+49,Vanadium (aerosol),ng/m3,no,0.0,2
+51,HC C2-C6(excl. AROM. & CHLH) (air+aerosol),μg/m3,no,0.0,1
+63,Zinc (aerosol),ng/m3,no,0.0,3
+65,Iron (aerosol),ng/m3,no,0.0,2
+67,Total nitrate (air+aerosol),μg N/m3,no,0.0,2
+68,Total ammonium (air+aerosol),μg N/m3,no,0.0,2
+69,Radioactivity (),,no,0.0,1
+73,Copper (aerosol),ng/m3,no,0.0,2
+316,i-Hexane (2-methylpentane) (air),μg/m3,no,0.0,8
+323,N3methylpentane (air),pptv,no,0.0,1
+351,acenaphthene (air+aerosol),ng/m3,no,0.0,4
+352,acenaphtylene (air+aerosol),ng/m3,no,0.0,3
+380,Benzo(b+j+k)fluoranthenes (air+aerosol),ng/m3,no,0.0,1
+381,Benzo(e)pyrene (air+aerosol),ng/m3,no,0.0,1
+394,n-Butane (air),μg/m3,no,0.1,8
+412,conductivity (precip),uS/cm,no,0.0,1
+416,cyclohexane (air),pptv,no,0.0,1
+428,Ethane (air),μg/m3,no,0.0,7
+430,Ethene (Ethylene) (air),μg/m3,no,0.0,6
+431,Ethyl benzene (air),μg/m3,no,0.2,15
+432,Ethyne (Acetylene) (air),μg/m3,no,0.0,5
+435,fluorene (air+aerosol) ,ng/m3,no,0.0,4
+441,n-Heptane (air) ,μg/m3,no,0.1,9
+443,n-Hexane (air),μg/m3,no,0.1,9
+447,i-Butane (2-methylpropane) (air),μg/m3,no,0.0,7
+449,"i-Octane (2,2,4-trimethylpentane) (air)",μg/m3,no,0.0,7
+450,i-Pentane (2-methylbutane) (air),μg/m3,no,0.1,9
+451,"Isoprene (2-methyl-1,3-butadiene) (air)",μg/m3,no,0.1,7
+464,"m,p-Xylene (air)",μg/m3,no,0.2,16
+465,naphtalene (air+aerosol),ng/m3,no,0.0,3
+475,n-Octane (air),μg/m3,no,0.0,8
+482,o-Xylene (air),μg/m3,no,0.2,16
+486,n-Pentane (air),μg/m3,no,0.1,10
+503,Propane (air),μg/m3,no,0.0,7
+505,Propene (air),μg/m3,no,0.0,6
+520,sum_sulph_diox_sulphate (air+aerosol),μg S/m3,no,0.0,1
+604,aluminium (aerosol),ng/m3,no,0.0,1
+606,anthracene (air+aerosol),ng/m3,no,0.0,4
+608,anthracene (precip+dry_dep),μg/m2/day,no,0.0,1
+609,Benzo(a)anthracene (air+aerosol),ng/m3,no,0.0,2
+611,Benzo(a)anthracene (precip+dry_dep),μg/m2/day,no,0.0,6
+616,Benzo(b)fluoranthene (air+aerosol),ng/m3,no,0.0,1
+618,Benzo(b)fluoranthene (precip+dry_dep),μg/m2/day,no,0.0,2
+622,Benzo(ghi)perylene (air+aerosol),ng/m3,no,0.0,5
+624,Benzo(ghi)perylene (precip+dry_dep),μg/m2/day,no,0.0,1
+625,Benzo(k)fluoranthene (air+aerosol),ng/m3,no,0.0,1
+627,Benzo(k)fluoranthene (precip+dry_dep),μg/m2/day,no,0.0,3
+629,calcium (aerosol),μg/m3,no,0.0,1
+630,calcium (precip),mg/l,no,0.0,1
+631,chloride (aerosol),μg/m3,no,0.0,1
+632,chloride (precip),mg/l,no,0.0,1
+643,fluoranthene (air+aerosol),ng/m3,no,0.1,5
+645,fluoranthene (precip+dry_dep),μg/m2/day,no,0.0,1
+648,acidity(H+) (precip),ue H/l,no,0.0,1
+653,reactive_mercury (air+aerosol),pg/m3,no,0.0,1
+654,indeno_123cd_pyrene (air+aerosol),ng/m3,no,0.0,1
+656,indeno_123cd_pyrene (precip+dry_dep),μg/m2/day,no,0.0,6
+658,potassium (precip),mg/l,no,0.0,1
+660,magnesium (precip),mg/l,no,0.0,1
+664,ammonium (precip),mg N/l,no,0.0,1
+666,nitrate (precip),mg N/l,no,0.0,1
+669,sodium (precip),mg/l,no,0.0,1
+673,PCB_114 (air+aerosol),pg/m3,no,0.0,1
+674,PCB_118 (air+aerosol),pg/m3,no,0.0,1
+677,PCB_138 (air+aerosol),pg/m3,no,0.0,1
+679,PCB_141 (air+aerosol),pg/m3,no,0.0,1
+680,PCB_153 (air+aerosol),pg/m3,no,0.0,1
+683,PCB_157 (air+aerosol),pg/m3,no,0.0,1
+684,PCB_167 (air+aerosol),pg/m3,no,0.0,1
+685,PCB_170 (air+aerosol),pg/m3,no,0.0,1
+686,PCB_180 (air+aerosol),pg/m3,no,0.0,1
+689,PCB_183 (air+aerosol),pg/m3,no,0.0,1
+690,PCB_187 (air+aerosol),pg/m3,no,0.0,1
+691,PCB_189 (air+aerosol),pg/m3,no,0.0,1
+692,PCB_194 (air+aerosol),pg/m3,no,0.0,1
+695,PCB_28 (air+aerosol),pg/m3,no,0.0,1
+701,PCB_52 (air+aerosol),pg/m3,no,0.0,1
+706,PCB_74 (air+aerosol),pg/m3,no,0.0,1
+707,PCB_99 (air+aerosol),pg/m3,no,0.0,1
+709,PCB_123 (air+aerosol),pg/m3,no,0.0,1
+712,phenanthrene (air+aerosol),ng/m3,no,0.0,4
+714,phenanthrene (precip+dry_dep),μg/m2/day,no,0.0,1
+715,pyrene (air+aerosol),ng/m3,no,0.1,4
+717,pyrene (precip+dry_dep),μg/m2/day,no,0.0,1
+719,sulphate (precip),mg S/l,no,0.0,1
+753,precipitation_amount (precip),mm,no,0.0,1
+754,precipitation_amount_off (precip),mm,no,0.0,1
+760,Benzo(j)fluoranthene (precip+dry_dep),μg/m2/day,no,0.0,2
+762,Benzo(j)fluoranthene (air+aerosol),ng/m3,no,0.0,1
+1029,Benzo(a)pyrene in PM2.5 (aerosol),ng/m3,no,0.0,1
+1045,Ammonium in PM2.5 (aerosol),μg/m3,no,0.0,5
+1046,Nitrate in PM2.5 (aerosol),μg/m3,no,0.0,4
+1047,sulphate in PM2.5 (aerosol),μg/m3,no,0.0,5
+1629,calcium in PM2.5 (aerosol),μg/m3,no,0.0,5
+1631,chloride in PM2.5 (aerosol),μg/m3,no,0.0,5
+1657,potassium in PM2.5 (aerosol),μg/m3,no,0.0,5
+1659,magnesium in PM2.5 (aerosol),μg/m3,no,0.0,5
+1668,sodium in PM2.5 (aerosol),μg/m3,no,0.0,4
+1771,Elemental carbon in PM2.5 (aerosol),μg/m3,no,0.0,2
+1772,Organic carbon in PM2.5 (aerosol),μg/m3,no,0.0,2
+2012,Lead (precip),μg/l,no,0.0,1
+2013,Mercury (precip),ng/l,no,0.0,3
+2014,Cadmium (precip),μg/l,no,0.0,3
+2015,Nickel (precip),μg/l,no,0.0,3
+2018,Arsenic (precip),μg/l,no,0.0,2
+2063,Zinc (precip),μg/l,no,0.0,1
+2065,Iron (precip),μg/l,no,0.0,1
+2073,Copper (precip),μg/l,no,0.0,1
+2076,acidity(pH) (precip),pH units,no,0.0,3
+4013,Mercury (air+aerosol),ng/m3,no,0.0,4
+4330,PCB_105 (air+aerosol),pg/m3,no,0.0,1
+4336,PCB_149 (air+aerosol),pg/m3,no,0.0,1
+4339,PCB_156 (air+aerosol),pg/m3,no,0.0,1
+4341,PCB_18 (air+aerosol),pg/m3,no,0.0,1
+4347,PCB_31 (air+aerosol),pg/m3,no,0.0,1
+4406,chrysene (air+aerosol),ng/m3,no,0.0,5
+4813,Total gaseous mercury (air+aerosol),ng/m3,no,0.0,6
+5012,Lead in PM10 (aerosol),μg/m3,no,0.3,9
+5013,Mercury in PM10 (aerosol),ng/m3,no,0.0,1
+5014,Cadmium in PM10 (aerosol),ng/m3,no,0.3,11
+5015,Nickel in PM10 (aerosol),ng/m3,no,0.2,11
+5018,Arsenic in PM10 (aerosol),ng/m3,no,0.2,11
+5029,Benzo(a)pyrene in PM10 (aerosol),ng/m3,no,0.3,21
+5129,Benzo(a)pyrene in PM10 (air+aerosol),ng/m3,no,0.0,2
+5380,"Benzo(b,j,k)fluoranthene in PM10 (aerosol)",ng/m3,no,0.0,5
+5419,Dibenzo(ah)anthracene in PM10 (aerosol),ng/m3,no,0.1,14
+5609,Benzo(a)anthracene in PM10 (air+aerosol),ng/m3,no,0.0,2
+5610,Benzo(a)anthracene in PM10 (aerosol),ng/m3,no,0.1,16
+5616,Benzo(b)fluoranthene in PM10 (air+aerosol),ng/m3,no,0.0,1
+5617,Benzo(b)fluoranthene in PM10 (aerosol),ng/m3,no,0.1,9
+5625,Benzo(k)fluoranthene in PM10 (air+aerosol),ng/m3,no,0.0,2
+5626,Benzo(k)fluoranthene in PM10 (aerosol),ng/m3,no,0.1,12
+5654,indeno_123cd_pyrene in PM10 (air+aerosol),ng/m3,no,0.0,3
+5655,indeno_123cd_pyrene in PM10 (aerosol),ng/m3,no,0.1,15
+5759,Benzo(j)fluoranthene in PM10 (aerosol),ng/m3,no,0.0,4
+5762,Benzo(j)fluoranthene in PM10 (air+aerosol),ng/m3,no,0.0,2
+5763,Dibenzo(ah)anthracene in PM10 (air+aerosol),ng/m3,no,0.0,2
+6001,Particulate matter < 2.5 µm (aerosol),μg/m3,yes,1.0,31
+6002,Particulate matter < 1 µm (aerosol),μg/m3,no,0.0,3
+6005,1-Butene (air),μg/m3,no,0.1,8
+6006,trans-2-Butene (air),μg/m3,no,0.1,6
+6007,cis-2-Butene (air),μg/m3,no,0.1,6
+6008,1-Pentene (air),μg/m3,no,0.0,8
+6009,2-Pentenes (air),μg/m3,no,0.1,7
+6011,"1,2,4-Trimethylbenzene (air)",μg/m3,no,0.0,9
+6012,"1,2,3-Trimethylbenzene (air)",μg/m3,no,0.0,8
+6013,"1,3,5-Trimethylbenzene (air)",μg/m3,no,0.0,9
+6015,Benzo(a)pyrene (air+aerosol),ng/m3,no,0.1,10
+6380,"Benzo(b,j,k)fluoranthene in PM10 (air+aerosol)",ng/m3,no,0.0,1
+7012,Lead (precip+dry_dep),μg/m2/day,no,0.0,1
+7013,Mercury (precip+dry_dep),μg/m2/day,no,0.0,4
+7014,Cadmium (precip+dry_dep),μg/m2/day,no,0.0,9
+7015,Nickel (precip+dry_dep),μg/m2/day,no,0.0,9
+7018,Arsenic (precip+dry_dep),μg/m2/day,no,0.0,9
+7029,Benzo(a)pyrene (precip+dry_dep),ng/m2/day,no,0.0,7
+7380,"Benzo(b,j,k)fluoranthene (precip+dry_dep)",μg/m2/day,no,0.0,3
+7419,Dibenzo(ah)anthracene (precip+dry_dep),ng/m2/day,no,0.0,4

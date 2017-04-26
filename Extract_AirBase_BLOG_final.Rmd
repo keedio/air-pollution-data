@@ -3,14 +3,19 @@ title: "Air pollution data"
 author: "jrodriguez@keedio.com"
 subtitle: "Joanna Rodríguez"
 output:
-  md_document:
-    variant: markdown_github
+  html_document:
+    code_folding: hide
+    df_print: paged
+    fig_caption: yes
+    theme: flatly
+    md_extensions: -autolink_bare_uris
 ---
 
 ```{r setup, include=FALSE}
 source("CTT_FILES.R")  # constant variables
 knitr::opts_knit$set(root.dir = path_root_files)
 knitr::opts_chunk$set(echo = TRUE)
+
 library(tibble)
 library(readr)
 library(readxl)
@@ -144,7 +149,6 @@ comp_data = AB_compcode[which(AB_compcode$component_name %in% comp_common),][c("
 kable(comp_data[rev(order(comp_data$`%data`)),][c("component_name", "%data")], align = c('l', 'c'), caption = "Table 2")
 
 ```
-
 *** 
 
 The selected sample periods are: **hour** and **day**, since they are the common sample periods for all the selected previous information.
@@ -172,7 +176,11 @@ Next, for each component and sample period, we find the best time interval overl
 
 See Figure 1 for an example from the Spain data set, we selected Sulphur Dioxide component measured hourly (shaded area = selected data).
 
-In order to be able to view the resulting dygra plot, we redirect the reader to the file dygraph_blog.html
+*** 
+
+<iframe src="dygraph_blog.html"style="border: none; width: 940px; height: 600px"></iframe>
+
+*** 
 
 After performing the analysis for all the countries, selected components and sample periods, the selected time interval is given by,  
 
@@ -233,4 +241,8 @@ In the following interactive map, we can observe how and where the stations are 
 
 To obtain a little bit more infomation on the data, you can zoom in and click on a station dot in order to display its measurement for time period provided. We encourage the reader to interact with the map and extract conclusions! 
 
-In order to be able to view the resulting map, we redirect the reader to the file map_blog.html
+<iframe src="map_blog.html"style="border: none; width: 940px; height: 600px"></iframe>
+
+
+
+
