@@ -5,8 +5,8 @@ Author: Joanna Rodríguez
 
 List of files:
 
-* Extract_AirBase_BLOG_md.md -- markdown blog post on Air Pollution Data. 
-* Extract_AirBase_BLOG_md.Rmd -- R markdown blog post on Air Pollution Data. 
+* Extract_AirBase_BLOG_md.md -- markdown of [blog post](https://www.keedio.org/air-pollution-data/) on Air Pollution Data. 
+* Extract_AirBase_BLOG_md.Rmd -- R markdown of [blog post](https://www.keedio.org/air-pollution-data/) on Air Pollution Data. 
 
 * CTT_FILES.R -- define the global constants that are to be used in the AirBase_CT_data.R script.
 * AirBase_CE_data.R -- main script to extract and save the data of a country, selecting  component(s) and sample period(s).
@@ -19,3 +19,4 @@ List of files:
   
 Please send any comments or bug to: 
 jrodriguez[@]keedio.com or joanna.rodriguezcesar[@]gmail.com
+
